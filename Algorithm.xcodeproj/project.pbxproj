@@ -34,6 +34,7 @@
 		A98DA1E329528641008A0557 /* Lv1. 문자열 내 p와 y의 개수.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lv1. 문자열 내 p와 y의 개수.swift"; sourceTree = "<group>"; };
 		A98DA1E429528A0B008A0557 /* Lv1. 나머지가 1이 되는 수 찾기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lv1. 나머지가 1이 되는 수 찾기.swift"; sourceTree = "<group>"; };
 		A98DA1E529528D37008A0557 /* Lv1. 콜라츠 추측.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lv1. 콜라츠 추측.swift"; sourceTree = "<group>"; };
+		A98DA1E629592006008A0557 /* Lv1. 서울에서 김서방 찾기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lv1. 서울에서 김서방 찾기.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +77,7 @@
 				A98DA1E329528641008A0557 /* Lv1. 문자열 내 p와 y의 개수.swift */,
 				A98DA1E429528A0B008A0557 /* Lv1. 나머지가 1이 되는 수 찾기.swift */,
 				A98DA1E529528D37008A0557 /* Lv1. 콜라츠 추측.swift */,
+				A98DA1E629592006008A0557 /* Lv1. 서울에서 김서방 찾기.swift */,
 			);
 			name = "프로그래머스";
 			path = "프로그래머스";
