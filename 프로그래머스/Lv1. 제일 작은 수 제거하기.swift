@@ -29,8 +29,16 @@ func solution2(_ arr:[Int]) -> [Int] {
     return tempArr == [] ? [-1] : tempArr
 }
 
+func solution3(_ arr:[Int]) -> [Int] {
+    var tempArr = arr.sorted(by: >)
+    return tempArr == [] ? [-1] : tempArr.prefix(tempArr.count-1)
+}
+
 print(solution([4,3,2,1]))
 print(solution([10]))
 
 print(solution2([4,3,2,1]))
 print(solution2([10]))
+
+print(solution3([4,3,2,1]))
+print(solution3([10]))

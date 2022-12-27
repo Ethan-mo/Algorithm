@@ -1,8 +1,8 @@
 //
-//  main.swift
-//  codeTEst
+//  Lv.1 수박수박수박수박수?.swift
+//  Algorithm
 //
-//  Created by 모상현 on 2022/12/20.
+//  Created by 모상현 on 2022/12/27.
 //
 
 import Foundation
@@ -13,4 +13,3 @@ func solution(_ n:Int) -> String {
 
 print(solution(3))
 print(solution(4))
-
