@@ -1,8 +1,8 @@
 //
-//  main.swift
-//  codeTEst
+//  Lv1. 문자열 다루기 기본.swift
+//  Algorithm
 //
-//  Created by 모상현 on 2022/12/20.
+//  Created by 모상현 on 2022/12/28.
 //
 
 import Foundation
@@ -18,6 +18,3 @@ func solution(_ s:String) -> Bool {
 print(solution("a234"))
 print(solution("1234"))
 print(solution("123sd678"))
-
-// var array = s.map{Int(String($0)) ?? nil}
-// return array.contains(nil) ? false : true
