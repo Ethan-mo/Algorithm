@@ -1,8 +1,8 @@
 //
-//  main.swift
-//  codeTEst
+//  Lv1. 이상한 문자 만들기.swift
+//  Algorithm
 //
-//  Created by 모상현 on 2022/12/20.
+//  Created by 모상현 on 2022/12/28.
 //
 
 import Foundation
