@@ -46,6 +46,7 @@
 		A98DB168295D1EC7009FDB70 /* Lv1. 직사각형 별찍기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lv1. 직사각형 별찍기.swift"; sourceTree = "<group>"; };
 		A98DB169295D238C009FDB70 /* Lv1. 내적.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lv1. 내적.swift"; sourceTree = "<group>"; };
 		A98DB16A295E7D3F009FDB70 /* Lv1. 문자열을 정수로 바꾸기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lv1. 문자열을 정수로 바꾸기.swift"; sourceTree = "<group>"; };
+		A98DB16B295E8329009FDB70 /* Lv1. 정수 내림차순으로 배치하기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lv1. 정수 내림차순으로 배치하기.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +82,7 @@
 			children = (
 				A98DA1D3295140F0008A0557 /* Lv1. 가운데 글자 가져오기.swift */,
 				A98DA1D529514673008A0557 /* main.swift */,
+				A98DB16B295E8329009FDB70 /* Lv1. 정수 내림차순으로 배치하기.swift */,
 				A98DB16A295E7D3F009FDB70 /* Lv1. 문자열을 정수로 바꾸기.swift */,
 				A98DB167295C11AD009FDB70 /* Lv1. 이상한 문자 만들기.swift */,
 				A98DA1EB295A87F1008A0557 /* Lv0. 문자열 계산하기.swift */,
