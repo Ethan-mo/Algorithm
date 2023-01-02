@@ -1,9 +1,10 @@
 //
-//  main.swift
-//  codeTEst
+//  Lv1. 비밀지도.swift
+//  Algorithm
 //
-//  Created by 모상현 on 2022/12/20.
+//  Created by 모상현 on 2023/01/02.
 //
+
 import Foundation
 
 //내가 푼 방법은 안된다.
