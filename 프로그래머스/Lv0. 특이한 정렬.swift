@@ -1,9 +1,10 @@
 //
-//  main.swift
-//  codeTEst
+//  Lv0. 특이한 정렬.swift
+//  Algorithm
 //
-//  Created by 모상현 on 2022/12/20.
+//  Created by 모상현 on 2023/01/06.
 //
+
 import Foundation
 // Lv0. 특이한 정렬
 /// 특정 배열에서, 특정한 값을 선정하고, 해당 값과 가까운 수들로 정렬을한다.
