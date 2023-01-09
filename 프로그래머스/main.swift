@@ -6,12 +6,8 @@
 //
 import Foundation
 
-func solution(_ sides:[Int]) -> Int {
-    var a = sides.sorted()
-    var maxNum = a.removeLast()
-    var compareNum = a.reduce(0,+)
-    return maxNum < compareNum ? 1 : 2
+func solution(_ my_string:String, _ letter:String) -> String {
+    return my_string.replacingOccurrences(of: letter, with: "")
 }
-print(solution([1, 2, 3]))
-print(solution([3, 6, 2]))
-print(solution([199, 72, 222]))
+print(solution("abcdef","f"))
+print(solution("BCBdbe","B"))
