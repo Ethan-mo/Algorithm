@@ -1,9 +1,10 @@
 //
-//  main.swift
-//  codeTEst
+//  Lv0. 삼각형의 완성조건(1).swift
+//  Algorithm
 //
-//  Created by 모상현 on 2022/12/20.
+//  Created by 모상현 on 2023/01/09.
 //
+
 import Foundation
 
 func solution(_ sides:[Int]) -> Int {
@@ -12,6 +13,3 @@ func solution(_ sides:[Int]) -> Int {
     var compareNum = a.reduce(0,+)
     return maxNum < compareNum ? 1 : 2
 }
-print(solution([1, 2, 3]))
-print(solution([3, 6, 2]))
-print(solution([199, 72, 222]))
