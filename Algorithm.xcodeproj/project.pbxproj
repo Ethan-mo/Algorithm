@@ -60,6 +60,7 @@
 		A9A14E5F296BB0B5008F1D7F /* Lv0. 특정 문자 제거하기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lv0. 특정 문자 제거하기.swift"; sourceTree = "<group>"; };
 		A9A14E60296BCC65008F1D7F /* Lv0. 문자 반복 출력하기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lv0. 문자 반복 출력하기.swift"; sourceTree = "<group>"; };
 		A9AADA36296CF61D003D6BBF /* Lv1. 두 개 뽑아서 더하기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lv1. 두 개 뽑아서 더하기.swift"; sourceTree = "<group>"; };
+		A9AADA37296CFA48003D6BBF /* Lv1. 2016년.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lv1. 2016년.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +96,7 @@
 			children = (
 				A98DA1D3295140F0008A0557 /* Lv1. 가운데 글자 가져오기.swift */,
 				A98DA1D529514673008A0557 /* main.swift */,
+				A9AADA37296CFA48003D6BBF /* Lv1. 2016년.swift */,
 				A9AADA36296CF61D003D6BBF /* Lv1. 두 개 뽑아서 더하기.swift */,
 				A9A14E60296BCC65008F1D7F /* Lv0. 문자 반복 출력하기.swift */,
 				A9A14E5F296BB0B5008F1D7F /* Lv0. 특정 문자 제거하기.swift */,
