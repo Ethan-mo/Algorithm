@@ -1,9 +1,10 @@
 //
-//  main.swift
-//  codeTEst
+//  Lv0. 짝수는 싫어요.swift
+//  Algorithm
 //
-//  Created by 모상현 on 2022/12/20.
+//  Created by 모상현 on 2023/01/10.
 //
+
 import Foundation
 
 func solution(_ n:Int) -> [Int] {
