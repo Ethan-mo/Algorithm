@@ -1,13 +1,14 @@
 //
-//  main.swift
-//  codeTEst
+//  Lv0. 배열의 유사도.swift
+//  Algorithm
 //
-//  Created by 모상현 on 2022/12/20.
+//  Created by 모상현 on 2023/01/10.
 //
+
 import Foundation
 
 func solution(_ s1:[String], _ s2:[String]) -> Int {
-    return s1.filter {s2.contains($0)}.count
+    return s2.filter {s1.contains($0)}.count
 }
 
 print(solution(["a", "b", "c"],["com", "b", "d", "p", "c"]))
