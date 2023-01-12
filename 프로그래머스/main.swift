@@ -6,29 +6,27 @@
 //
 import Foundation
 
-func solution(_ nums:[Int]) -> Int {
-    var answer = -1
-    var count = 0
-    // 세 개의 수를 합해서 소수가 되는 경우를 구하시오.
-    for i in 0..<nums.count {
-        for j in i+1..<nums.count {
-            for k in j+1..<nums.count {
-                answer = nums[i]+nums[j]+nums[k]
-                
-                // 소수 구하는 조건
-                for x in 2..<answer {
-                    if answer % x == 0 {
-                        break
-                    }
-                    if x == answer - 1 {
-                        count += 1
-                    }
-                }
+func solution(_ N:Int, _ stages:[Int]) -> [Int] {
+    var temp:Double = 0.0
+    var result = [(Int,Double)]()
+    for i in 1...N {
+        var a = 0
+        var b = 0
+        for j in stages {
+            if i == j {
+                a += 1
+            }
+            if i <= j {
+                b += 1
             }
         }
+        temp = stages.contains(i) ? Double(a) / Double(b) : 0.0
+        result.append((i, temp))
     }
-    return count
+    return result.sorted {
+        $0.1 == $1.1 ? $0.0 < $1.0 : $0.1 > $1.1
+    }.map {$0.0}
 }
 
-print(solution([1,2,3,4]))
-print(solution([1,2,7,6,4]))
+print(solution(5,[2, 1, 2, 6, 2, 4, 3, 3]))
+print(solution(4,[4,4,4,4,4]))
