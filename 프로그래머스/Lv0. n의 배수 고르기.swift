@@ -7,7 +7,14 @@
 
 import Foundation
 
+
 func solution(_ n:Int, _ numlist:[Int]) -> [Int] {
-    return numlist.filter { $0 % n == 0 }
+    var temp = [Int]()
+    for i in numlist {
+        if i % n == 0 {
+            temp.append(i)
+        }
+    }
+    return temp
 }
 print(solution(3,[4, 5, 6, 7, 8, 9, 10, 11, 12]))
