@@ -7,7 +7,7 @@
 import Foundation
 
 func solution(_ n:Int, _ t:Int) -> Int {
-    return n * Int(pow(2.0 , 15.0))
+    return n * Int(pow(2.0 , t))
 }
 
 print(solution(7,15))
