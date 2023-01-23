@@ -1,32 +1,30 @@
 //
 //  main.swift
-//  codeTEst
+//  codeTEst›
 //
 //  Created by 모상현 on 2022/12/20.
 //
+
 import Foundation
 
-func solution(_ N:Int, _ stages:[Int]) -> [Int] {
-    var temp:Double = 0.0
-    var result = [(Int,Double)]()
-    for i in 1...N {
-        var a = 0
-        var b = 0
-        for j in stages {
-            if i == j {
-                a += 1
-            }
-            if i <= j {
-                b += 1
-            }
-        }
-        temp = stages.contains(i) ? Double(a) / Double(b) : 0.0
-        result.append((i, temp))
-    }
-    return result.sorted {
-        $0.1 == $1.1 ? $0.0 < $1.0 : $0.1 > $1.1
-    }.map {$0.0}
+func solution(_ numbers:[Int]) -> Int {
+    var numberArray = numbers
+    var sumMinValue = 0
+    var sumMaxValue = 0
+    guard let minValue = numberArray.min() else { return 0 }
+    numberArray.remove(at: numberArray.firstIndex(of: minValue) ?? 0)
+    guard let secondMin = numberArray.min() else { return 0 }
+    sumMinValue = minValue * secondMin
+    
+    guard let maxValue = numberArray.max() else { return 0 }
+    numberArray.remove(at: numberArray.firstIndex(of: maxValue) ?? 0)
+    guard let secondMax = numberArray.max() else { return 0 }
+    sumMaxValue = maxValue * secondMax
+    
+    return sumMinValue > sumMaxValue ? sumMinValue : sumMaxValue
 }
 
-print(solution(5,[2, 1, 2, 6, 2, 4, 3, 3]))
-print(solution(4,[4,4,4,4,4]))
+print(solution([0, -31, 24, 10, 1, 9]))
+print(solution([1, 2, -3, 4, -5]))
+
+
