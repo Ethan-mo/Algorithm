@@ -1,8 +1,8 @@
 //
-//  main.swift
-//  codeTEst›
+//  Lv0. 숫자 찾기.swift
+//  Algorithm
 //
-//  Created by 모상현 on 2022/12/20.
+//  Created by 모상현 on 2023/01/25.
 //
 
 import Foundation
@@ -21,5 +21,4 @@ func solution(_ num:Int, _ k:Int) -> Int {
 print(solution(29183, 1))
 print(solution(232443, 4))
 print(solution(123456, 7))
-
 
