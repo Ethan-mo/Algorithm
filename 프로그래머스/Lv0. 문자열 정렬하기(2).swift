@@ -1,8 +1,8 @@
 //
-//  main.swift
-//  codeTEst›
+//  Lv0. 문자열 정렬하기(2).swift
+//  Algorithm
 //
-//  Created by 모상현 on 2022/12/20.
+//  Created by 모상현 on 2023/01/26.
 //
 
 import Foundation
@@ -13,5 +13,4 @@ func solution(_ my_string:String) -> String {
 print(solution("Bcad"))
 print(solution("heLLo"))
 print(solution("Python"))
-
 
