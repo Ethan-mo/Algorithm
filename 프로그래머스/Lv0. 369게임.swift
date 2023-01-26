@@ -1,8 +1,8 @@
 //
-//  main.swift
-//  codeTEst›
+//  Lv0. 369게임.swift
+//  Algorithm
 //
-//  Created by 모상현 on 2022/12/20.
+//  Created by 모상현 on 2023/01/26.
 //
 
 import Foundation
@@ -20,5 +20,3 @@ func solution(_ order:Int) -> Int {
 print(solution(2))
 print(solution(3))
 print(solution(29423))
-
-
